@@ -1,0 +1,11 @@
+[package]
+name = "rust2mlir"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rustc_parse = { git = "https://github.com/rust-lang/rust" }
+rustc_span = { git = "https://github.com/rust-lang/rust" }
+rustc_session = { git = "https://github.com/rust-lang/rust" }
